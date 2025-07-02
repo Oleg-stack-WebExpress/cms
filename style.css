@@ -1,0 +1,50 @@
+/*
+Theme Name: cms
+Author: Я сам
+Description: Описание темы
+*/
+
+body,
+html {
+	height: 100%;
+}
+
+header {
+	padding-top: 20px;
+}
+
+.ContentSideBar ul {
+	list-style: none;
+	display: flex;
+}
+
+.ContentSideBar ul li {
+	margin-right: 10px;
+	padding: 5px 10px;
+	background: rgb(176, 176, 242);
+	border: 1px solid #000;
+	border-radius: 10px;
+	}
+
+.ContentSideBar ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
+.container {
+	text-align: center;
+}
+
+.dropdown {
+	margin: 10px;
+}
+
+.card-body img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card {
+	margin: 10px;
+}
