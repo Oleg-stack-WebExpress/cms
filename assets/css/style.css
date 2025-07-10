@@ -13,24 +13,6 @@ header {
 	padding-top: 20px;
 }
 
-.ContentSideBar ul {
-	list-style: none;
-	display: flex;
-}
-
-.ContentSideBar ul li {
-	margin-right: 10px;
-	padding: 5px 10px;
-	background: rgb(176, 176, 242);
-	border: 1px solid #000;
-	border-radius: 10px;
-	}
-
-.ContentSideBar ul li a{
-	color: #000;
-	text-decoration: none;
-}
-
 .container {
 	text-align: center;
 }
@@ -47,4 +29,18 @@ header {
 
 .card {
 	margin: 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	filter: brightness(0);
+}
+
+.carousel {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.carousel-item {
+	text-align: center;
 }
